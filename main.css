@@ -1,0 +1,181 @@
+/*-----------------Geral--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 24px 0;
+}
+
+
+nav a:hover,
+body h2 {
+    font-family: 'Workbench', sans-serif;
+}
+
+/*-----------------Geral--------------*/
+
+/*-----------------Cabeçalho--------------*/
+
+header {
+    background-color: #d45858;
+    color: #e7d4d4;
+    padding: 16px;
+}
+
+header h1 {
+    font-size: 55px;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-weight: normal;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+header nav li a {
+    color: #e7d4d4;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #cf1414;
+}
+
+/*-----------------Cabeçalho--------------*/
+
+/*-----------------Corpo1--------------*/
+
+#sobre .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#sobre img {
+    height: 430px;
+    margin-right: 30px;
+}
+
+.historia-jogo h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #cf1414;
+    font-size: 40px;
+}
+
+.historia-jogo p {
+    margin-bottom: 10px;
+}
+
+/*-----------------Corpo1--------------*/
+
+/*-----------------Corpo2--------------*/
+
+#personagens h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#personagens .container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#personagens .container ul li {
+    list-style-type: none;
+    display: grid;
+    justify-content: center;
+}
+
+#personagens .container ul li img {
+    height: 330px;
+}
+
+#personagens .container ul li a {
+    text-decoration: none;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    color: #cf1414;
+    font-size: 35px;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+/*-----------------Corpo2--------------*/
+
+/*-----------------Corpo3--------------*/
+
+#contato .container {
+    display: block;
+}
+
+.formulario {
+    display: grid;
+    justify-content: center;
+}
+
+.formulario h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 400px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form button {
+    background-color: #d45858;
+    color: #e7d4d4;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cf1414;
+}
+
+input:focus, textarea:focus {
+    outline-color: #d45858;
+}
+/*-----------------Corpo3--------------*/
+
+/*-----------------Rodape--------------*/
+footer {
+    background-color: #d45858;
+    color: #e7d4d4;
+    padding: 16px 0;
+}
+/*-----------------Rodape--------------*/
